@@ -1,0 +1,70 @@
+html {scroll-behavior: smooth;}
+
+header,
+.header-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: 130px;
+    background-color: #2a8a85;
+    color: #fff;
+    font-size: 70px;
+}
+header i {margin-right: 10px;}
+
+.header-2 { 
+    height: 30px;
+    background-color: #e2dfdf;
+    color: #2a8a85;
+}
+
+body{
+    /* background-color: rgb(190, 180, 180);*/
+ /*background-color:#e582f6;  */
+ }
+
+ .table .visit{ 
+     box-sizing: border-box;
+      padding: 5px 10px;
+      margin-right: 1%;
+     border-radius: 5px;
+     border: 1px solid #2a8a85;
+      font-size: 15px;
+      cursor: pointer;
+      transition: all .5s;
+      background-color: #2a8a85;
+      color: white;
+  }
+  .table .visit:hover{
+      background-color:#71ebe5;
+      color:white;
+      }
+
+
+      .to-top-btn {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        color: #fff;
+        background-color: #2a8a85;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    thead{
+        background-color: #2a8a85;
+        color: #fff;
+        height:50px;
+    }
+    .Search{
+        color: #2a8a85;
+    }
+    
+    
+    
